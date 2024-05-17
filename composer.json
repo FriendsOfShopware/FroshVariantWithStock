@@ -1,0 +1,40 @@
+{
+    "name": "frosh/variant-with-stock",
+    "version": "0.0.1",
+    "description": "Resolve variant with most stock stock on the PDP",
+    "type": "shopware-platform-plugin",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "FriendsOfShopware",
+            "homepage": "https://friendsofshopware.com"
+        }
+    ],
+    "require": {
+        "shopware/core": "~6.5.8 || ~6.6.3"
+    },
+    "autoload": {
+        "psr-4": {
+            "Frosh\\VariantWithStock\\": "src/"
+        }
+    },
+    "extra": {
+        "shopware-plugin-class": "Frosh\\VariantWithStock\\FroshVariantWithStock",
+        "label": {
+            "de-DE": "Variante mit dem meisten Lagerbestand als Vorauswahl auf der Detailseite",
+            "en-GB": "Resolve variant with most stock stock on the PDP"
+        },
+        "description": {
+            "en-GB": "Resolve variant with the most stock as initially loaded on the product detail page",
+            "de-DE": "Wähle Variante mit dem höchsten Lagerbestand auf der Detailseite als Vorauswahl"
+        },
+        "manufacturerLink": {
+            "de-DE": "https://github.com/FriendsOfShopware/FroshVariantWithStock",
+            "en-GB": "https://github.com/FriendsOfShopware/FroshVariantWithStock"
+        },
+        "supportLink": {
+            "de-DE": "https://github.com/FriendsOfShopware/FroshVariantWithStock/issues",
+            "en-GB": "https://github.com/FriendsOfShopware/FroshVariantWithStock/issues"
+        }
+    }
+}
